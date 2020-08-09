@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BB42BB24E059F600967D5B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB42BA24E059F600967D5B /* CircleImage.swift */; };
+		04BB42BD24E05B9600967D5B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB42BC24E05B9600967D5B /* MapView.swift */; };
 		04D09A5424DDCF1C00458B94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D09A5324DDCF1C00458B94 /* AppDelegate.swift */; };
 		04D09A5624DDCF1C00458B94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D09A5524DDCF1C00458B94 /* SceneDelegate.swift */; };
 		04D09A5924DDCF1C00458B94 /* SwiftUI_1_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04D09A5724DDCF1C00458B94 /* SwiftUI_1_0.xcdatamodeld */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04BB42BA24E059F600967D5B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		04BB42BC24E05B9600967D5B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		04D09A5024DDCF1C00458B94 /* SwiftUI 1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI 1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D09A5324DDCF1C00458B94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D09A5524DDCF1C00458B94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04BB42B924E059E400967D5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04D09A5A24DDCF1C00458B94 /* ContentView.swift */,
+				04BB42BA24E059F600967D5B /* CircleImage.swift */,
+				04BB42BC24E05B9600967D5B /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		04D09A4724DDCF1C00458B94 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +72,9 @@
 		04D09A5224DDCF1C00458B94 /* SwiftUI 1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				04BB42B924E059E400967D5B /* Views */,
 				04D09A5324DDCF1C00458B94 /* AppDelegate.swift */,
 				04D09A5524DDCF1C00458B94 /* SceneDelegate.swift */,
-				04D09A5A24DDCF1C00458B94 /* ContentView.swift */,
 				04D09A5C24DDCF1E00458B94 /* Assets.xcassets */,
 				04D09A6124DDCF1E00458B94 /* LaunchScreen.storyboard */,
 				04D09A6424DDCF1E00458B94 /* Info.plist */,
@@ -150,9 +164,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D09A5924DDCF1C00458B94 /* SwiftUI_1_0.xcdatamodeld in Sources */,
+				04BB42BD24E05B9600967D5B /* MapView.swift in Sources */,
 				04D09A5424DDCF1C00458B94 /* AppDelegate.swift in Sources */,
 				04D09A5B24DDCF1C00458B94 /* ContentView.swift in Sources */,
 				04D09A5624DDCF1C00458B94 /* SceneDelegate.swift in Sources */,
+				04BB42BB24E059F600967D5B /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
